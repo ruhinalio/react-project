@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+:root {
+  --header-background: rgba(0, 0, 0, 0.671);
+  --white-color: #fff;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: var(--header-background);
+  ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    li {
+      a {
+        font-size: 1.4rem;
+        color: var(--white-color);
+      }
+    }
+  }
+}

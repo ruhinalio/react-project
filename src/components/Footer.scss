@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  // border: 1px solid red;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+:root {
+  --header-background: rgba(0, 0, 0, 0.671);
+  --white-color: #fff;
+  --blck-color: #000;
+  --orange-color: #fdb827;
+  --brown-color: #424242;
+}
+.footer {
+  margin: 2rem auto;
+  background: none;
+  display: flex;
+  justify-content: space-between;
+  ul {
+    display: flex;
+    gap: 0 15px;
+    i {
+      font-size: 1.5rem;
+      color: var(--white-color);
+    }
+  }
+  p{
+    font-size: 1.3rem;
+    color: var(--white-color);
+  }
+}
