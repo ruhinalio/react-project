@@ -1,17 +1,20 @@
 import React from "react";
 import "./About.css";
-import "../svgs/Buratino.svg";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+// import Header from "../components/Header";
+// import Footer from "../components/Footer";
+import Buratino from "../svgs/Saly-10.png";
 
 const About = () => {
   return (
     <div>
-      <Header />
+      {/* bunu commente almagda sebebim seyfelemeni elemediyim ucundur */}
+      {/* <Header /> */}
       <div className="about">
         <section className="about-top">
           <div className="container">
-            <div className="about-top-left"></div>
+            <div className="about-top-left">
+            <img src={Buratino } alt="" />
+            </div>
             <div className="about-top-right">
               <p>
                 I’m Amirhossein Meydani A <span>Backend</span> and{" "}
@@ -66,8 +69,8 @@ const About = () => {
             </p>
           </div>
         </section>
-        <Footer/>
-
+       
+        {/* <Footer /> */}
       </div>
     </div>
   );
