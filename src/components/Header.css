@@ -19,7 +19,6 @@
 }
 
 .header {
-  z-index: 17;
   position: fixed;
   width: 100%;
   background-color: var(--header-background);

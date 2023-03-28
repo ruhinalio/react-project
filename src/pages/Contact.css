@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+:root {
+  --header-background: rgba(0, 0, 0, 0.671);
+  --white-color: #fff;
+  --blck-color: #000;
+  --orange-color: #fdb827;
+  --white-opacity13: rgba(255, 255, 255, 0.285);
+}
+
+body {
+  background-color: var(--blck-color);
+  color: var(--white-color);
+}
+
+.contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px 30px;
+}
+.contact img {
+  height: 600px;
+  width: auto;
+}
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px 30px;
+}
+.contact h2 {
+  max-width: 670px;
+  font-size: 64px;
+  font-weight: 700;
+}
+.contact p {
+  max-width: 500px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.contact .about-btn {
+  padding: 1rem 1.5rem;
+  background-color: var(--orange-color);
+  color: var(--blck-color);
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+.contact .portfolio-btn {
+  padding: 0.9rem 1.5rem;
+  background-color: var(--white-opacity13);
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 15px;
+}/*# sourceMappingURL=Contact.css.map */
