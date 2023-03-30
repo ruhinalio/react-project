@@ -1,22 +1,36 @@
-import React from 'react'
-import "./Header.css"
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "./Header.css";
+
 const Header = () => {
   return (
     <div>
-<header className='header '>
-    <div className="container"><ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Portfolios</a></li>
-        <li><a href="#">Journey</a></li>
-        <li><a href="#">Blog</a></li>
-    </ul></div>
-    
-</header>
-
+      <header className="header ">
+        <div className="container">
+          <ul>
+            <li>
+              <NavLink to="/">Home</NavLink>
+            </li>
+            <li>
+              <NavLink to="/about">About</NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact">Contact</NavLink>
+            </li>
+            <li>
+              <NavLink to="/portfolios">Portfolios</NavLink>
+            </li>
+            <li>
+              <NavLink to="/journey">Journey</NavLink>
+            </li>
+            <li>
+              <NavLink to="/blogs">Blog</NavLink>
+            </li>
+          </ul>
+        </div>
+      </header>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

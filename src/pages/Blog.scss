@@ -19,22 +19,8 @@
   --orange-color: #fdb827;
   --brown-color: #424242;
 }
-.footer {
-  margin: 2rem auto;
-  padding-bottom: 2rem;
-  background: none;
-  display: flex;
-  justify-content: space-between;
-  ul {
+.blogs{
+    margin: 3rem auto;
     display: flex;
-    gap: 0 15px;
-    i {
-      font-size: 1.5rem;
-      color: var(--white-color);
-    }
-  }
-  p{
-    font-size: 1.3rem;
-    color: var(--white-color);
-  }
+justify-content: space-between;
 }

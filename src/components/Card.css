@@ -21,22 +21,26 @@
   --brown-color: #424242;
 }
 
-.footer {
-  margin: 2rem auto;
-  padding-bottom: 2rem;
-  background: none;
+.card {
+  max-width: 300px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  border: 1px solid var(--brown-color);
+  border-radius: 30px;
 }
-.footer ul {
+.card img {
+  width: 100%;
+}
+.card h3 {
+  padding: 0 15px;
+  margin: 10px 0;
+}
+.card p {
+  padding: 0 15px;
+  margin: 10px 0;
   display: flex;
-  gap: 0 15px;
+  align-items: center;
 }
-.footer ul i {
-  font-size: 1.5rem;
+.card p a {
   color: var(--white-color);
-}
-.footer p {
-  font-size: 1.3rem;
-  color: var(--white-color);
-}/*# sourceMappingURL=Footer.css.map */
+}/*# sourceMappingURL=Card.css.map */

@@ -8,17 +8,17 @@ const Footer = () => {
         <ul>
           <li>
             <a href="#">
-              <i class="fa-brands fa-github"></i>
+              <i className="fa-brands fa-github"></i>
             </a>
           </li>
           <li>
             <a href="#">
-              <i class="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-twitter"></i>
             </a>
           </li>
           <li>
             <a href="#">
-              <i class="fa-solid fa-basketball"></i>
+              <i className="fa-solid fa-basketball"></i>
             </a>
           </li>
         </ul>

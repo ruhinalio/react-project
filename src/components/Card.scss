@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  // border: 1px solid red;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+:root {
+  --header-background: rgba(0, 0, 0, 0.671);
+  --white-color: #fff;
+  --blck-color: #000;
+  --orange-color: #fdb827;
+  --brown-color: #424242;
+}
+.card{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    // gap: 10px 0;
+    border: 1px solid var(--brown-color);
+    border-radius: 30px;
+    img{
+        width: 100%;
+    }
+    h3{
+        padding: 0 15px;
+        margin: 10px 0;
+    }
+    p{
+        padding: 0 15px;
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+        a{
+            color: var(--white-color);
+        }
+    }
+}
