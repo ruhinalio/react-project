@@ -14,13 +14,13 @@
 }
 
 :root {
-  --header-background: rgba(0, 0, 0, 0.671);
+  --header-background: #252525;
   --white-color: #fff;
 }
 
 .header {
   width: 100%;
-  background-color: var(--header-background);
+  background-color: #252525;
 }
 .header ul {
   display: flex;

@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+:root {
+  --header-background: #252525;
+  --white-color: #fff;
+  --blck-color: #000;
+  --orange-color: #fdb827;
+  --white-opacity13: rgba(255, 255, 255, 0.285);
+  --paragraph-color: #4f4f4f;
+}
+
+body {
+  background-color: var(--blck-color);
+  color: var(--white-color);
+}
+
+.journey {
+  display: flex;
+}
+.journey-side {
+  max-width: 75%;
+}
+.journey-side-top {
+  display: flex;
+}
+.journey-side-top img {
+  width: 300px;
+}
+.journey-side-top h2 {
+  font-size: 4rem;
+  letter-spacing: 1px;
+  margin: 1rem auto;
+}
+.journey-side-top p {
+  width: 360px;
+}
+.journey-side-bottom .head {
+  font-weight: 700;
+}
+.journey-side-bottom p {
+  margin: 1rem 0;
+}
+.journey-timeline {
+  padding: 0 2rem;
+}
+.journey-timeline h2 {
+  padding: 2rem 0;
+  font-size: 2.3rem;
+}
+.journey-timeline select {
+  width: 100%;
+  height: 2.5rem;
+  padding: 0 1rem;
+  font-size: 1.1rem;
+  background-color: var(--blck-color);
+  border: 1px solid var(--paragraph-color);
+  border-radius: 9px;
+  color: var(--white-color);
+}
+.journey-timeline .time-data {
+  color: var(--white-color);
+  border: 1px solid var(--paragraph-color);
+  padding: 0.4rem;
+  border-radius: 9px;
+  margin: 2rem auto;
+}
+.journey-timeline .time-data p {
+  color: var(--paragraph-color);
+}/*# sourceMappingURL=Journey.css.map */
